@@ -1,0 +1,70 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+env/
+venv/
+ENV/
+.venv
+*.egg-info/
+dist/
+build/
+
+# Jupyter Notebook
+.ipynb_checkpoints
+*.ipynb_checkpoints
+
+# Model files (too large for git)
+*.safetensors
+*.bin
+*.pt
+*.pth
+*.ckpt
+*.h5
+
+# Training outputs
+logs/
+checkpoints/
+debug_lora_adapter/
+llama3_humanization_lora/
+flan_t5_lora_ultrafeedback_adapter_retrained/
+instruction_lora_humanizer_full/
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# OS
+.DS_Store
+Thumbs.db
+*.log
+
+# Node modules
+node_modules/
+.npm/
+.yarn/
+
+# Frontend build
+frontend/dist/
+frontend/build/
+frontend/.next/
+
+# Environment variables
+.env
+.env.local
+.env.*.local
+
+# Temporary files
+*.tmp
+*.temp
+yo
+yo.py
+
+# Git
+.git/
+backend/.git/
