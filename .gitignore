@@ -17,12 +17,15 @@ build/
 *.ipynb_checkpoints
 
 # Model files (too large for git)
-*.safetensors
+# *.safetensors  # Commented out to allow adapter files
 *.bin
 *.pt
 *.pth
 *.ckpt
 *.h5
+
+# Exclude large base model files but allow small adapters
+# Only exclude if files are larger than 50MB
 
 # Training outputs
 logs/
